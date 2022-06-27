@@ -1,0 +1,18 @@
+.container {
+  max-width: 1088px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+@font-face {
+  font-family: 'sega';
+  src: url('./SEGA.TTF');
+}
+
+h1 {
+  font-family: 'sega', 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+    sans-serif;
+  color: #0ccac4;
+  font-weight: 200;
+  font-size: 4rem;
+}
