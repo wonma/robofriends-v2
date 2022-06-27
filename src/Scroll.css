@@ -1,0 +1,14 @@
+.scroll-box {
+  position: relative;
+  overflow-y: scroll;
+  border-radius: 50px;
+  margin: 0 25px;
+  padding: 20px 0;
+  height: 500px;
+  border: 2px solid black;
+  background: linear-gradient(
+    90deg,
+    rgba(123, 123, 244, 1) 0%,
+    rgba(28, 177, 196, 1) 100%
+  );
+}
