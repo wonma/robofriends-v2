@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: 'sega';
-  src: url('./SEGA.TTF');
+  src: url('../SEGA.TTF');
 }
 
 h1 {
