@@ -4,7 +4,7 @@ import './Card.css';
 
 const Cardlist = ({ robots }) => {
   return (
-    <div className='flex flex-wrap'>
+    <div className='flex flex-wrap justify-center'>
       {robots.map((robot, i) => {
         return (
           <Card
