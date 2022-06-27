@@ -3,6 +3,7 @@ import Cardlist from '../components/Cardlist';
 import Searchbar from '../components/Searchbar';
 import Scroll from '../components/Scroll';
 import Loader from '../components/Loader';
+import ErrorBoundary from '../components/ErrorBoundary';
 import './App.css';
 
 class App extends Component {
@@ -42,7 +43,9 @@ class App extends Component {
         <Searchbar onSearchChange={this.onSearchChange} />
         {this.state.robots.length ? (
           <Scroll>
-            <Cardlist robots={this.filteredRobots()} />
+            <ErrorBoundary>
+              <Cardlist robots={this.filteredRobots()} />
+            </ErrorBoundary>
           </Scroll>
         ) : (
           <Loader />
